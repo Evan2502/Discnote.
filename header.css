@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.college-logo {
+    border-radius: 50%;
+    width: 40px;
+    position: absolute;
+    left: 20px;
+}
+
+/*Titre*/
+
+header h2 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.app-logo {
+    width: 120px;
+    position: absolute;
+    right: 20px;
+}
+
+header h3,h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.eleve-logo {
+    width: 43.4px;
+    padding: 0px 5px;
+}

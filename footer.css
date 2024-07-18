@@ -1,0 +1,19 @@
+footer {
+    background-color: #46484d;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding : 10px 0px;
+    color: white;
+}
+
+footer p {
+    margin: 0px 10px;
+    font-size: 14px;
+}
+
+.droit {
+    position: absolute;
+    right: 10px;
+}
+

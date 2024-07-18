@@ -1,0 +1,71 @@
+nav {
+    background-color: #46484d;
+    height: 45px;
+    display: flex;
+    justify-content: left;
+}
+
+
+nav a {
+    color: white;
+    height: 40px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #46484d;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 0px  #288653;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+nav .nav-boutons {
+    position: absolute;
+    right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menuDeroul {
+    position: q;
+    border: none;
+    margin-top: 45px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.482) 2px 2px 10px 0px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+
+.deroul-bouton {
+    color: black;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    height: 30px;
+    border-radius: 5px 0px;
+}
+
+.deroul-bouton:hover {
+    color: #000000;
+    background-color: #ececec;
+    box-shadow: none;
+    cursor: pointer;
+}

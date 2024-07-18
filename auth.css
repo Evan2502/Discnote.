@@ -1,0 +1,128 @@
+.auth-main {
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+}
+
+.auth-contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.205);
+}
+
+.auth-contaner-ilustration {
+    width: 100px;
+    margin: 10px;
+}
+
+.auth-contaner-loginFrom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-contaner-loginFrom-college-logo {
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.auth-contaner-loginFrom input {
+    margin: 5px;
+    border-radius: 5px;
+    border : 1px solid #288653;
+    padding: 5px;
+    font-size: 12px;
+    width: 180px;
+    outline: none;
+}
+
+.auth-contaner-titre {
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.auth-contaner-loginFrom input:focus {
+    outline: dashed #288653 1px;
+}
+
+.auth-connect {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background-color: #288653;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.auth-connect:hover {
+    background-color: #175733;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fond {
+    background-image: url("https://0640048e.index-education.net/pronote/ressources/bkg-ete2024.svg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -50;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+}
+
+.inputgroup-auth {
+    display: flex;
+    align-items: center;
+}
+
+.recup-mdp  {
+    display: flex;
+}
+
+.recup-mdp p {
+    margin: 15px;
+}
+
+.recup-mdp a {
+    font-size: 13px;
+    margin: 15px;
+    color: rgb(29, 29, 29);
+}
+
+.recup-mdp a:hover {
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.auth-ilustration {
+    position: absolute;
+    width: 800px;
+    top : 10vh;
+    display: block;
+}
+
+@media screen and (max-width : 1285px) {
+    .auth-ilustration {
+        display: none;
+    }
+}
+
+
+
